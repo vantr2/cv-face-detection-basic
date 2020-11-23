@@ -4,7 +4,7 @@ import cv2
 cascade = cv2.CascadeClassifier("haarcascade_frontalcatface.xml")
 
 # đọc ảnh
-img = cv2.imread("manycat.jpg")
+img = cv2.imread("images/manycat.jpg")
 # cascade chỉ phát hiện được với ảnh xám nên convert -> ảnh xám
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
