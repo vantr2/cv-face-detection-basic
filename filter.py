@@ -13,7 +13,7 @@ re_gaussianblur = cv2.GaussianBlur(img_gaussianblur, (5, 5), 0)
 cv2.imshow("Gaussian Blur", img_gaussianblur)
 cv2.imshow("Gaussian Blur Test", re_gaussianblur)
 
-# lọc trung bình
+# lọc trung vị
 img_medianblur = cv2.imread('images/median_test.png')
 re_medianblur = cv2.medianBlur(img_medianblur, 5)
 cv2.imshow("Median Blur", img_medianblur)
